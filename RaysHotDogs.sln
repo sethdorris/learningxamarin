@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaysHotDogs.Core", "RaysHotDogs.Core\RaysHotDogs.Core.csproj", "{1964A9D4-F021-496E-8E42-2B1E9AA6BEB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaysHotDogs", "RaysHotDogs\RaysHotDogs.csproj", "{45BA0E18-C670-410E-9953-52DD7B11A1A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{1964A9D4-F021-496E-8E42-2B1E9AA6BEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1964A9D4-F021-496E-8E42-2B1E9AA6BEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1964A9D4-F021-496E-8E42-2B1E9AA6BEB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45BA0E18-C670-410E-9953-52DD7B11A1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45BA0E18-C670-410E-9953-52DD7B11A1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45BA0E18-C670-410E-9953-52DD7B11A1A7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{45BA0E18-C670-410E-9953-52DD7B11A1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45BA0E18-C670-410E-9953-52DD7B11A1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45BA0E18-C670-410E-9953-52DD7B11A1A7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
