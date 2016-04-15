@@ -15,7 +15,7 @@ using RaysHotDogs.Adapters;
 
 namespace RaysHotDogs
 {
-    [Activity(Label = "Hot Dog Menu Activity", MainLauncher = true)]
+    [Activity(Label = "Hot Dog Menu Activity")]
     public class HotDogMenuActivity : Activity
     {
         private ListView hotDogListView;
