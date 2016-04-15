@@ -27,11 +27,28 @@ namespace RaysHotDogs
             SetContentView(Resource.Layout.MainMenu);
 
             FindViews();
+
+            HandleEvents();
         }
 
         private void FindViews()
         {
+            orderButton = FindViewById<Button>(Resource.Id.orderButton);
+            cartButton = FindViewById<Button>(Resource.Id.cartButton);
+            aboutButton = FindViewById<Button>(Resource.Id.aboutButton);
+            mapButton = FindViewById<Button>(Resource.Id.mapButton);
+            takePictureButton = FindViewById<Button>(Resource.Id.takePictureButton);
+        }
 
+        private void HandleEvents()
+        {
+            orderButton.Click += OrderButton_Click;     
+        }
+
+        private void OrderButton_Click(object sender, EventArgs e)
+        {
+            var intent = new Intent(this, typeof(HotDogMenuActivity));
+            StartActivity(intent);
         }
     }
 }
